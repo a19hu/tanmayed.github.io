@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("mart.png");
+    opacity: 75%;
+}
+.center{
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(47, 45, 45);
+    width: 45%;
+    height: 60%;
+}
+.logo img {
+    width: 40vb;
+    height: 30vb
+}
+.right{
+    border: 2px solid transparent;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 3vb;
+}
+.right h1{
+    display: flex;
+   justify-content: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left{
+    border: 2px solid transparent;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 2vb;
+}
+.form{
+   
+    margin: 1vb;
+    padding: 2vb;
+}
+.number{
+    margin-top: 1vb;
+}
+.form input{
+    padding: 2vb;
+    border: none;
+    height: 3.2vb;
+    width: 25vb;
+    border-bottom: 1px solid red;
+    border-radius: 2vb;
+}
+.continue{
+    margin-top: 2vb;
+    width: 25vb;
+    background-color: brown;
+    height: 3vb;
+}
+.continue:hover{
+    cursor: pointer;
+    background-color: rgb(140, 51, 51);
+}
+.login{
+   margin-top: 50px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.form value{
+    font-size: large;
+}
+.alert-danger{
+    color: rgb(235, 229, 229);
+    font-size: large;
+    margin: 5px;
+    border: 1px solid transparent;
+    background-color: #e63a3a;
+    border-radius: 5px;
+    padding: 5px;
+}
+.alert-success{
+    color: rgb(235, 229, 229);
+    font-size: large;
+    margin: 5px;
+    border: 1px solid transparent;
+    background-color: #2260b7;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media only screen and (max-width: 498px){
+    body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .container{
+        width: 90%;
+        height: 70%;
+    }
+    .logo img {
+        width: 31vb;
+        height: 14vb;
+    }
+    .form input {
+        height: 3.2vb;
+        width: 30vb;
+        
+    }
+    .number {
+        margin-top: 0vb;
+    }
+    .continue {
+        margin-top: 7vb;
+        height: 6vb;
+    }
+}
